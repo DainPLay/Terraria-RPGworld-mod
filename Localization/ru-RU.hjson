@@ -1,0 +1,91 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+Mods: {
+	RPGworld14: {
+		Items: {
+			dain_headphones_green: {
+				DisplayName: Dain_HEadphones
+				Tooltip: "[c/CF1D2D:Двойного цвета!]"
+			}
+
+			dain_headphones_red: {
+				DisplayName: Dain_HEadphones
+				Tooltip: "[c/CF1D2D:Двойного цвета!]"
+			}
+
+			dain_hoodie: {
+				DisplayName: Dain_HOodie
+				Tooltip: "[c/CF1D2D:Знакомый чередующийся узор]"
+			}
+
+			Denirt: {
+				DisplayName: Мохнатые когти
+				Tooltip: "[c/CF1D2D:Дениртификация]"
+			}
+
+			iron_pick: {
+				DisplayName: Железная палка
+				Tooltip: "[c/CF1D2D:Всё же лучше чем ничего]"
+			}
+
+			sound_blaster: {
+				DisplayName: Звуковой бластер
+				Tooltip: "[c/CF1D2D:Тяжёлый металл.]"
+			}
+
+			spiked_pop: {
+				DisplayName: Зазубренный леденец
+				Tooltip:
+					'''
+					[c/CF1D2D:Зазубрен зубами]
+					Ломается после атаки, теряя 67% урона
+					Восстанавливается со временем
+					'''
+			}
+
+			spiked_pop_broken: {
+				DisplayName: Зазубренный леденец
+				Tooltip:
+					'''
+					[c/CF1D2D:Зазубрен зубами]
+					Ломается после атаки, теряя 67% урона
+					Восстанавливается со временем
+					'''
+			}
+		}
+
+		NPCs: {
+			Shadow: {
+				DisplayName: Тень
+
+				TownNPCMood: {
+					Content: Ну... Я всё ещё чёрный, но так всё в порядке.
+					NoHome: Я бездомный. Это наапоминат мне о ГРУВ...
+					FarFromHome: Я ближе к ГРУВ, чем к своему дому.
+					LoveSpace: Здесь нет Ахелеста или кого-то на него похожего. Мне нравится!
+					DislikeCrowded: Здесь слишком много людей, что напоминает мне об Ахелесте.
+					HateCrowded: Здесь слишком много людей, мне даже кажется, что я видел Ахелеста!
+					LikeNPC_Princess: "{NPCName} случайно не с ГРУВ? Я ощущаю связь."
+					Princess_LovesNPC: "{NPCName} кажется мне каким-то тёмным."
+				}
+
+				Census.SpawnCondition: Нет
+			}
+		}
+
+		Dialogue: {
+			Shadow: {
+				PartyGirlDialogue: Можешь пожалуйста сказать {0}, чтобы выключила свои гирлянды? Радужный свет меня типа убивает.
+				StandardDialogue1: Извини, я бесполезен, пока ГРУВ мертва.
+				StandardDialogue2: Отсосу за запрещёнку
+				StandardDialogue3: Закупайся не сливайся!
+			}
+		}
+
+		Projectiles: {
+			sound_beam.DisplayName: sound_beam
+			spiked_pop_broken_projectile.DisplayName: spiked_pop_broken_projectile
+			spiked_pop_projectile.DisplayName: spiked_pop_projectile
+		}
+	}
+}

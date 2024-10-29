@@ -1,0 +1,91 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+Mods: {
+	RPGworld14: {
+		Items: {
+			dain_headphones_green: {
+				DisplayName: Dain_HEadphones
+				Tooltip: "[c/CF1D2D:Double colored!]"
+			}
+
+			dain_headphones_red: {
+				DisplayName: Dain_HEadphones
+				Tooltip: "[c/CF1D2D:Double colored!]"
+			}
+
+			dain_hoodie: {
+				DisplayName: Dain_HOodie
+				Tooltip: "[c/CF1D2D:Familiar checker pattern]"
+			}
+
+			Denirt: {
+				DisplayName: Furry Claws
+				Tooltip: "[c/CF1D2D:Denirtification]"
+			}
+
+			iron_pick: {
+				DisplayName: Iron Pick
+				Tooltip: "[c/CF1D2D:Still better than nothing]"
+			}
+
+			sound_blaster: {
+				DisplayName: Sound Blaster
+				Tooltip: "[c/CF1D2D:Heavy metal.]"
+			}
+
+			spiked_pop: {
+				DisplayName: Spiked Pop
+				Tooltip:
+					'''
+					[c/CF1D2D:Tooth-spiked]
+					Breaks after attack, losing 67 % damage
+					Rebuilds over time
+					'''
+			}
+
+			spiked_pop_broken: {
+				DisplayName: Spiked Pop
+				Tooltip:
+					'''
+					[c/CF1D2D:Tooth-spiked]
+					Breaks after attack, losing 67 % damage
+					Rebuilds over time
+					'''
+			}
+		}
+
+		NPCs: {
+			Shadow: {
+				DisplayName: Shadow
+
+				TownNPCMood: {
+					Content: I mean, i'm steel black, but it's fine.
+					NoHome: Being without a home feels like GRUV again.
+					FarFromHome: I am closer to GRUV than to my home.
+					LoveSpace: There is no Aheleste or someone like him. Me likee!
+					DislikeCrowded: There are too much people around and it reminds me of Aheleste.
+					HateCrowded: There are too much people around and im sure I saw Aheleste!
+					LikeNPC_Princess: Is {NPCName} from GRUV? I feel connection.
+					Princess_LovesNPC: "{NPCName} seems shady."
+				}
+
+				Census.SpawnCondition: None
+			}
+		}
+
+		Dialogue: {
+			Shadow: {
+				PartyGirlDialogue: Can you please tell {0} to stop using rainbow lights? It kills me, you know.
+				StandardDialogue1: Sorry, I am useless while GRUV is dead.
+				StandardDialogue2: I'll suck for a ban
+				StandardDialogue3: Buy, don't merge!
+			}
+		}
+
+		Projectiles: {
+			sound_beam.DisplayName: sound_beam
+			spiked_pop_broken_projectile.DisplayName: spiked_pop_broken_projectile
+			spiked_pop_projectile.DisplayName: spiked_pop_projectile
+		}
+	}
+}

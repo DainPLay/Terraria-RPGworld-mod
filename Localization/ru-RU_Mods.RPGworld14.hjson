@@ -1,0 +1,40 @@
+NPCs: {
+	Shadow: {
+		TownNPCMood: {
+		}
+	}
+}
+
+Projectiles: {
+}
+
+Items: {
+	spiked_pop_broken: {
+	}
+
+	spiked_pop: {
+	}
+
+	sound_blaster: {
+	}
+
+	iron_pick: {
+	}
+
+	dain_hoodie: {
+	}
+
+	dain_headphones_red: {
+	}
+
+	dain_headphones_green: {
+	}
+
+	Denirt: {
+	}
+
+	ExampleCostume: {
+		// DisplayName: Example Costume
+		// Tooltip: ""
+	}
+}
